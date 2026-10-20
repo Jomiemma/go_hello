@@ -1,0 +1,15 @@
+go.mod is a config file that shows the project's Go version, also defines the module
+path, and tracks the versions of all external dependencies required to build the 
+project 
+
+
+go.sum is basically a compilation of the modules in go.mod but as cryptographic 
+SHA-256 hash of all those files to protect against the files being tampered with
+
+go version tells me the installed version of go on my laptop
+
+go env GOPATH shows me the go workspace directory where go complies global binaries and keeps downloaded module caches
+
+go fmt automatically formats all .go files to follow standard go formatting rules (spacing, alignment)
+
+go vet checks for my code for subtle bugs that might compile fine but can be errors at runtime

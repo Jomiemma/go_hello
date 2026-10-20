@@ -1,0 +1,18 @@
+# Compiled binaries
+go-hello
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of go build
+*.out
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
